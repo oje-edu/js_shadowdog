@@ -1,0 +1,57 @@
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.c2 {
+  width: 45vh;
+}
+#canvas2 {
+  border: 3px solid black;
+
+  height: 1000px;
+  width: 400px;
+}
+.c3 {
+  width: 45vh;
+
+}
+#canvas3 {
+  border: 3px solid black;
+
+  height: 1000px;
+  width: 400px;
+}
+.c4 {
+  width: 45vh;
+}
+#canvas4 {
+  border: 3px solid black;
+
+  height: 1000px;
+  width: 400px;
+}
+.c5 {
+  width: 45vh;
+}
+#canvas5 {
+  border: 3px solid black;
+
+  height: 1000px;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+:root {
+  --clr-green-900: hsl(120, 86%, 14%);
+  --clr-green-500: hsl(120, 61%, 52%);
+  --clr-banana-100: hsl(60, 55%, 81%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  /* margin: 0; */
+
+  margin: 3em auto;
+  text-align: center;  
+}
+
+.container {
+  padding: 3em 0;
+}
+
+.btn {
+  display: inline-block;
+  background: black; 
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  padding: 1em 3em;
+  
+  margin: 0 .25rem;
+}
+
+
+@media (min-width: 700px) {
+  html {
+    font-size: 1,5625rem;
+  }
+}
+
+
+
+
